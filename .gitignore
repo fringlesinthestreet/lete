@@ -1,6 +1,7 @@
 .idea/
 .env
-files/
+!files/.keep
+files/*.xml
 myenv/
 .DS_Store
 __pycache__/
