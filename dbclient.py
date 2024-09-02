@@ -50,7 +50,7 @@ class DBClient:
                 cursor.close()
 
     def callStoreProcedure(self):
-        prName = "ADM_FONASA_HIST.PR_"
+        prName = "ADM_FONASA_HIST.PR_" # TODO:: actualizar nombre
         if self.connection is None:
             return
         cursor = None

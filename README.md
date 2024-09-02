@@ -32,12 +32,6 @@ source myenv/bin/activate
 myenv\Scripts\activate
 ```
 
-#### Desactivar ambiente
-
-```shell
-deactivate
-```
-
 ### 4. Instalar dependencias
 
 Una vez que está activo el virtual env, instalamos las dependencias
@@ -50,4 +44,10 @@ pip install -r requirements.txt
 
 ```shell
 python3 main
+```
+
+#### Al terminar, se debe desactivar el ambiente
+
+```shell
+deactivate
 ```
